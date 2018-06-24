@@ -17,14 +17,14 @@ body{
 }
 #side-nav ul{
   padding: 0 0 0 0;
-  border-right: 2px solid #f3f3f3;
+  border-right: 2px solid #D5D5D5;
   margin: 0;
 }
 #side-nav ul li{
-  border-bottom: 2px solid #f3f3f3;
+  border-bottom: 2px solid #D5D5D5;
 }
 #side-nav ul img{
-  width: 55%;
+  width: 40%;
   margin: 15%;
 }
 #grid{
@@ -37,83 +37,86 @@ body{
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
 }
-#grid:nth-child(-n+11){
-  border: 1px solid black;
+#grid .grid-item-1,.grid-item-2,.grid-item-3,.grid-item-4,.grid-item-5,.grid-item-6,.grid-item-7,.grid-item-8,.grid-item-9,.grid-item-10,.grid-item-11{
+  border: 1px solid #EEEEEE;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border: 0px solid #000000;
+  margin: 4%;
 }
 #grid .grid-item-1{
   grid-column-start:1;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 9;
-  border: 1px solid red;
+  background-color: #fff;
+  margin: 2% 2% 2% 2%;
 }
 #grid .grid-item-2{
   grid-column-start:3;
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 7;
-  border: 1px solid red;
+  background-color: #ABCBD6;
 }
 #grid .grid-item-3{
   grid-column-start:4;
-  /* grid-column-end: 4; */
   grid-row-start: 1;
   grid-row-end: 10;
-  border: 1px solid red;
+  background-color: #F8BD27;
 }
 #grid .grid-item-4{
   grid-column-start:1;
   grid-column-end: 2;
   grid-row-start: 9;
   grid-row-end: 15;
-  border: 1px solid red;
+  background-color: #CE483D;
 }
 #grid .grid-item-5{
   grid-column-start:2;
   grid-column-end: 3;
   grid-row-start: 9;
   grid-row-end: 16;
-  border: 1px solid red;
+  background-color: #79302A;
 }
 #grid .grid-item-6{
   grid-column-start:3;
   grid-column-end: 4;
   grid-row-start: 7;
   grid-row-end: 13;
-  border: 1px solid red;
+  background-color: #7BC1A1;
 }
 #grid .grid-item-7{
   grid-column-start:4;
-  /* grid-column-end: 4; */
   grid-row-start: 10;
   grid-row-end: 16;
-  border: 1px solid red;
+  background-color: #347FF2;
 }
 #grid .grid-item-8{
   grid-column-start:1;
   grid-column-end: 2;
   grid-row-start: 15;
   grid-row-end: 21;
-  border: 1px solid red;
+  background-color: #83A125;
 }
 #grid .grid-item-9{
   grid-column-start:2;
   grid-column-end: 3;
   grid-row-start: 16;
   grid-row-end: 21;
-  border: 1px solid red;
+  background-color: #F4A92B;
 }
 #grid .grid-item-10{
   grid-column-start:3;
   grid-column-end: 4;
   grid-row-start: 13;
   grid-row-end: 21;
-  border: 1px solid red;
+  /* background-color: #F4A92B; */
 }
 #grid .grid-item-11{
   grid-column-start:4;
-  /* grid-column-end: 4; */
   grid-row-start: 16;
   grid-row-end: 21;
-  border: 1px solid red;
+  background-color: #2B2423;
 }
