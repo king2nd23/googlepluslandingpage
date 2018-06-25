@@ -28,6 +28,8 @@ body{
   margin: 15%;
 }
 #grid{
+  position: relative;
+  z-index: 1;
   display: grid;
   width: 92%;
   height: 1000px;
@@ -52,6 +54,52 @@ body{
   grid-row-end: 9;
   background-color: #fff;
   margin: 2% 2% 2% 2%;
+  overflow: hidden;
+}
+#grid .grid-item-1 img{
+  position: relative;
+  display: inline-block;
+  width: 350px;
+  height: 350px;
+  bottom: 60%;
+  left: 50%;
+}
+#grid .grid-item-1 .btn{
+  display: block;
+  width: 30%;
+  height: auto;
+  position: relative;
+  float: right;
+  top: 5%;
+  right: 5%;
+  color: #fff;
+  background-color: #347FF2;
+  text-align: center;
+  margin: 0;
+
+  border: 1px solid #3A81F3;
+  border-radius: 4px 4px 4px 4px;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -webkit-border-radius: 4px 4px 4px 4px;
+}
+#grid .grid-item-1 .btn p{
+  margin: 3%;
+  font-weight: 500;
+}
+#grid .grid-item-1 .content{
+  display: inline-block;
+  width: 40%;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+#grid .grid-item-1 .content h1{
+  margin: 0;
+  font-weight: 400;
+  color: #333333;
+}
+#grid .grid-item-1 .content p{
+  margin: 10% 10%;
+  color: #838383;
 }
 #grid .grid-item-2{
   grid-column-start:3;
@@ -59,6 +107,38 @@ body{
   grid-row-start: 1;
   grid-row-end: 7;
   background-color: #ABCBD6;
+  height: auto;
+}
+#grid .grid-item-2 img{
+  display: block;
+  width: 75%;
+  height: auto;
+  position: relative;
+  top: -5%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#grid .grid-item-2 .bottom-section{
+  display: block;
+  position: relative;
+  bottom: 6%;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  background-color: #8CBECF;
+  border-radius: 5px;
+}
+#grid .grid-item-2 .bottom-section h4{
+  margin: 4%;
+  margin:  3% 3% 0 3%;
+  color: #fff;
+}
+#grid .grid-item-2 .bottom-section p{
+  margin:  3% 3% 0 3%;
+  font-size:14px;
+  color: #fff;
+
 }
 #grid .grid-item-3{
   grid-column-start:4;
