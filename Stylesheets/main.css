@@ -6,6 +6,9 @@
 body{
   margin: 0;
 }
+a{
+  color: #fff;
+}
 #side-nav{
   width: 8%;
   display: inline-block;
@@ -149,7 +152,8 @@ body{
   height: auto;
   position: relative;
   top: 5%;
-  margin: 0 auto;
+  /* padding-top: 10%; */
+  margin: 10% auto 0 auto;
 }
 #grid .grid-item-3 .bottom-section{
   display: block;
@@ -157,7 +161,7 @@ body{
   bottom: 6%;
   width: 100%;
   height: auto;
-  margin: 45% 0 3% 0;
+  margin: 35% 0 3% 0;
   color: #fff;
 }
 #grid .grid-item-3 .bottom-section h4{
@@ -181,7 +185,7 @@ body{
   height: auto;
   position: relative;
   top: 5%;
-  margin: 0 auto;
+  margin: 3% auto 0 auto;
 }
 #grid .grid-item-4 .bottom-section{
   display: block;
@@ -213,7 +217,7 @@ body{
   height: auto;
   position: relative;
   top: 5%;
-  margin: 0 auto;
+  margin: 5% auto 0 auto;
 }
 #grid .grid-item-5 .bottom-section{
   display: block;
@@ -221,7 +225,7 @@ body{
   bottom: 6%;
   width: 100%;
   height: auto;
-  margin: 25% 0 3% 0;
+  margin: 23% 0 3% 0;
   color: #fff;
 }
 #grid .grid-item-5 .bottom-section h4{
@@ -245,7 +249,7 @@ body{
   height: auto;
   position: relative;
   top: 5%;
-  margin: 0 auto;
+  margin: 5% auto 0 auto;
 }
 #grid .grid-item-6 .bottom-section{
   display: block;
@@ -253,7 +257,7 @@ body{
   bottom: 6%;
   width: 100%;
   height: auto;
-  margin: 10% 0 3% 0;
+  margin: 8% 0 3% 0;
   color: #fff;
 }
 #grid .grid-item-6 .bottom-section h4{
@@ -276,7 +280,7 @@ body{
   height: auto;
   position: relative;
   top: 5%;
-  margin: 0 auto;
+  margin: 3% auto 0 auto;
 }
 #grid .grid-item-7 .bottom-section{
   display: block;
@@ -308,7 +312,7 @@ body{
   height: auto;
   position: relative;
   top: 5%;
-  margin: 0 auto;
+  margin: 5% auto 0 auto;
 }
 #grid .grid-item-8 .bottom-section{
   display: block;
@@ -340,7 +344,7 @@ body{
   height: auto;
   position: relative;
   top: 5%;
-  margin: 0 auto;
+  margin: 3.5% auto 0 auto;
 }
 #grid .grid-item-9 .bottom-section{
   display: block;
@@ -372,7 +376,7 @@ body{
   height: auto;
   position: relative;
   top: 10%;
-  margin: 0 auto;
+  margin: 10% auto 0 auto;
 }
 #grid .grid-item-10 .bottom-section{
   display: block;
@@ -380,7 +384,7 @@ body{
   bottom: 6%;
   width: 100%;
   height: auto;
-  margin: 45% 0 3% 0;
+  margin: 40% 0 3% 0;
   color: #fff;
 }
 #grid .grid-item-10 .bottom-section h4{
